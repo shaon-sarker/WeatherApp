@@ -1,0 +1,67 @@
+body
+{
+    background: rgb(0,36,22);
+    background: linear-gradient(90deg, rgba(0,36,22,1) 2%, rgba(9,121,46,1) 43%, rgba(0,255,252,1) 100%);
+}  
+.weather-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #22c1c3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .weather-heading {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #city-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .weather {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f7f7f7;
+  }
+  
+  #location {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  #temperature,
+  #humidity,
+  #description {
+    margin: 10px 0;
+    color: #666;
+  }
+  
